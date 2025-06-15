@@ -1,0 +1,30 @@
+.product-card {
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    font-family: Verdana;
+    width: 300px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card p {
+    color: red;
+    font-weight: bold;
+}
+
+.product-card button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: darkblue;
+}

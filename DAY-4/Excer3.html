@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nested Element Selectors</title>
+  <style>
+   
+    .container #myHeader {
+      color: red;
+    }
+
+   
+    div + h3 {
+      color: green;
+    }
+
+   
+    .myText1 + .myText2 {
+      color: orange;
+    }
+
+   
+    .myInput[type="text"], 
+    input[type="email"] {
+      border: 2px solid green;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 id="myHeader">Welcome</h1>
+  </div>
+
+  <div>Some other content</div>
+  <h3>This h3 is after a div</h3>
+
+  <p class="myText1">Paragraph 1</p>
+  <p class="myText2">Paragraph 2</p>
+
+  <form>
+    <input class="myInput" type="text" placeholder="Enter your name">
+    <input type="email" placeholder="Enter your email">
+  </form>
+
+</body>
+</html>
